@@ -14,17 +14,39 @@ package connectionDatabase;
 
 public class DatabaseConfiguration {
 
-    //  Cái này là host của database online, database này của trang Clever Cloud
-    public static final String HOST_NAME = "bbpz2wsswnv8fo7titb3-mysql.services.clever-cloud.com";
+//    //  Cái này là host của database online, database này của trang Clever Cloud
+//    public static final String HOST_NAME = "bbpz2wsswnv8fo7titb3-mysql.services.clever-cloud.com";
+//
+//    //  Tên của đatabase, cái này mặc định khi tạo online, không đổi được
+//    public static final String DATABASE_NAME = "bbpz2wsswnv8fo7titb3";
+//
+//    //  User name của database, được cho khi tạo database online
+//    public static final String USER_NAME = "ucgmnuzffqk244q9";
+//
+//    //  Password của database, được cho khi tạo database online
+//    public static final String PASSWORD = "AqvCI2PQ96P77uHtMN2N";
+//
+//    //  Url tải drivel kết nối cơ sở dữ liệu
+//    public static final String DATABASE_DRIVER = "com.mysql.jdbc.Driver";
+//
+//    // Số kết nối tối thiểu ta thiết lập cho connection pool
+//    public static final int DATABASE_MIN_CONNECTION = 0;
+//
+//    // Số kết nối tối đa ta thiết lập cho connection pool
+//    public static final int DATABASE_MAX_CONNECTION = 5;
+
+    // Local host
+    //  Cái này là host của database
+    public static final String HOST_NAME = "localhost";
 
     //  Tên của đatabase, cái này mặc định khi tạo online, không đổi được
-    public static final String DATABASE_NAME = "bbpz2wsswnv8fo7titb3";
+    public static final String DATABASE_NAME = "bbpz2wsswnv8fo7tib3";
 
     //  User name của database, được cho khi tạo database online
-    public static final String USER_NAME = "ucgmnuzffqk244q9";
+    public static final String USER_NAME = "root";
 
     //  Password của database, được cho khi tạo database online
-    public static final String PASSWORD = "AqvCI2PQ96P77uHtMN2N";
+    public static final String PASSWORD = "";
 
     //  Url tải drivel kết nối cơ sở dữ liệu
     public static final String DATABASE_DRIVER = "com.mysql.jdbc.Driver";
