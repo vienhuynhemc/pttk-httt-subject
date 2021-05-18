@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    
+    <servlet>
+        <servlet-name>AddAccountController</servlet-name>
+        <servlet-class>controllerAdmin.addAccount.AddAccountNVKController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddAccountController</servlet-name>
+        <url-pattern>/them-tai-khoan-nhan-vien-kho</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddAccountKHController</servlet-name>
+        <servlet-class>controllerAdmin.addAccount.AddAccountKHController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddAccountKHController</servlet-name>
+        <url-pattern>/them-tai-khoan-khach-hang</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddAccountNVVCController</servlet-name>
+        <servlet-class>controllerAdmin.addAccount.AddAccountNVVCController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddAccountNVVCController</servlet-name>
+        <url-pattern>/them-tai-khoan-nhan-vien-van-chuyen</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>CheckSessionController</servlet-name>
+        <servlet-class>controllerIndex.editAccount.CheckSessionController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckSessionController</servlet-name>
+        <url-pattern>/thong-tin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ChessSessionCartController</servlet-name>
+        <servlet-class>controllerIndex.cart.ChessSessionCartController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChessSessionCartController</servlet-name>
+        <url-pattern>/gio-hang</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoadPageProduct</servlet-name>
+        <servlet-class>controllerIndex.loadPageProduct.LoadPageProduct</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoadPageProduct</servlet-name>
+        <url-pattern>/san-pham</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ChessSessionCheckoutController</servlet-name>
+        <servlet-class>controllerIndex.checkout.ChessSessionCheckoutController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChessSessionCheckoutController</servlet-name>
+        <url-pattern>/thanh-toan</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>PageLoginController</servlet-name>
+        <servlet-class>controllerIndex.loginUser.PageLoginController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PageLoginController</servlet-name>
+        <url-pattern>/dang-nhap</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>LogOutController</servlet-name>
+        <servlet-class>controllerIndex.logOut.LogOutController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogOutController</servlet-name>
+        <url-pattern>/dang-xuat</url-pattern>
+    </servlet-mapping>
+
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    
+</web-app>
