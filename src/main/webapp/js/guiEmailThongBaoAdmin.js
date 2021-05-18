@@ -60,6 +60,8 @@ function removeitem(item) {
     document.getElementById("formYesNoLink").href = "../../EmailNotificationRemoveController?id=" + value;
 }
 
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 var firebaseConfig = {
     apiKey: "AIzaSyCNKrWfzyctIJeK4XgPlU5AKR1y2hY1zA0",
     authDomain: "ecommerce-b6c08.firebaseapp.com",

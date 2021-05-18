@@ -15,10 +15,10 @@ package connectionDatabase;
 public class DatabaseConfiguration {
 
     //  Cái này là host của database online, database này của trang Clever Cloud
-    public static final String HOST_NAME = "b2mp0eqcjjmuc0pzg4rh-mysql.services.clever-cloud.com";
+    public static final String HOST_NAME = "bbpz2wsswnv8fo7titb3-mysql.services.clever-cloud.com";
 
     //  Tên của đatabase, cái này mặc định khi tạo online, không đổi được
-    public static final String DATABASE_NAME = "b2mp0eqcjjmuc0pzg4rh";
+    public static final String DATABASE_NAME = "bbpz2wsswnv8fo7titb3";
 
     //  User name của database, được cho khi tạo database online
     public static final String USER_NAME = "ucgmnuzffqk244q9";
